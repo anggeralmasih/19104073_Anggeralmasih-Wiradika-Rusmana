@@ -1,0 +1,17 @@
+input{
+    margin-top: 8px;
+}
+
+select{
+    margin-top: 8px;
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+    margin-top: 8px;
+}
+
+button{
+    margin-left: 380px;
+}

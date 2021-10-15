@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML</title>
+    <link rel="stylesheet" href="/Form/formcss.css">
+</head>
+<body>
+    <h1>Form HTML</h1>
+    <form action="" method="POST">
+        <label for="name">Name: </label>
+        <input type="text" name="name">
+
+        <br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="men" value="men"> Men
+        <input type="radio" name="woman" value="women"> Woman
+
+        <br>
+        <label for="address">Address: </label>
+        <input type="text" name="address">
+
+        <br>
+        <label for="Country">Country: </label>
+        <select name="country">
+            <option value="Indonesia">Indonsesia</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Malaysia">Malaysia</option>
+        </select>
+
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" required>
+
+        <br>
+        <label for="photo">Photo: </label>
+        <input type="text" name="photo">
+        <input type="file" name="photo">
+
+        <br>
+        
+        <label for="comment">Comment: </label>
+        <textarea name="comment"></textarea>
+        
+        <br>
+        <button type="submit">Submit</button>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+h1{
+    font-style: arial;
+    color: black;
+    font-size: 6;
+}
+label{
+    font-style: arial;
+    font-size: 5;
+}
+
+input{
+    size: 9;
+}
+
+textarea{
+    text-align: center;
+}
