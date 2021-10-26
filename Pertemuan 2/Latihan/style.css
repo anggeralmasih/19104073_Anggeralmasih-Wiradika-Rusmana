@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    background-color: #E6E6E6;
+
+}
+
+.content h1 {
+    color: #191A19;
+    text-align: left;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+h2 {
+    width: 290px;
+    background-color: #393E46;
+    color: white;
+    border: 1px solid;
+    border-radius: 0 30px 30px 0;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+body {
+    background-color: #F9F9F9;
+    background-image: url(img/christmas.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1200px;
+    margin: auto;
+}
+
+#pp {
+    border-radius: 15%;
+}
+
+#desc {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#pdesc {
+    font-size: 16px;
+    padding-top: 12px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+table td {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.skill li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.navLink li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+/* .video h2 {
+    text-align: center;
+} */
+
+.footer1 {
+    background-color: #393E46;
+    color: white;
+    padding-left: 900px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.footer1 tr td {
+    font-size: 14px;
+}
+
+.footer1 h4 {
+    padding-left: 6px;
+}
+
+footer a:visited {
+    color: white;
+}
+
+.footer2 {
+    background-color: #393E46;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5cm;
+    padding: 10px;
+}
+
+.btnsub:hover {
+    background: #393E46;
+    color: white;
+}
+
+.btnsub:active {
+    background: #3f6294;
+    border: 1px solid #3f6294;
+    color: white;
+}
